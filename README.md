@@ -12,7 +12,7 @@ Hardware used:
 Note about the sound sensor:
 -Turn the sensitivity calibrator counterclockwise till the led2 on the sound sensor turns off, leaving only the led1 on. This makes the sound sensor active high.
 
-Librarys needed:
+Libraries needed:
 -blynk version 0.6.1 by Volodymyr Shymanskyy
 
 Board manager needed:
