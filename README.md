@@ -9,7 +9,7 @@ Hardware used:
 -One bread board
 -15 male to male wires
 
-Note on the sound sensor
+Note about the sound sensor:
 -Turn the senstivity calibrater counter clock wise till the led2 on the sound sensor turns off, leaving only the led1 on. This makes the sound sensor active high.
 
 Librarys needed:
