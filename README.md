@@ -12,6 +12,9 @@ Hardware used:
 Note about the sound sensor:
 -Turn the potentiometer counterclockwise till the led2 on the sound sensor turns off, leaving only the led1 on. This makes the sound sensor active high.
 
+Arduino IDE needed: 
+-https://www.arduino.cc/en/Main.Software
+
 Preferences needed:
 -https://dl.espressif.com/dl/package_esp32_index.json
 
