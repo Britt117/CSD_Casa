@@ -1,0 +1,2 @@
+# CSD_Casa
+Casa Security Device - School Project for Mercer University. The device centers around the ESP32-cam with the HC-SR501 PIR motion sensor and KY-038 AVR PIC high sensitivity sound sensor. When the sensor detvects motion or sound within a certain threshold, the device will take a picture. The device works with the Blynk app which will notify the user of the disturbance along with the image.
