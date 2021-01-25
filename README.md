@@ -3,7 +3,7 @@ Casa Security Device - School Project for Mercer University by students from the
 
 Hardware used:
 -ESP32-cam AI-Thinker model with OV2640 camera and 32GB SD card
--FTDI232 programming board
+-FTDI232 USB mini adapter programming board
 -HC-SR501 PIR motion sensor
 -KY-037 AVR PIC high sensitivity sound sensor
 -One bread board
