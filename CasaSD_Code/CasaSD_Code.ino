@@ -6,7 +6,6 @@
  *                                  -Alexander Mitchell
  *                                  -Odera Unigwe
  *               Prototype for Senior Design Exhibit II at Mercer University.
- *                  (Made Using Britton's WiFi info for testing purposes)
 */
 ////////////////////////////////////////////////////////////////////////////////////////////
 
