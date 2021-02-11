@@ -1,11 +1,23 @@
 ////////////////////////////////////////////////////////////////////////////////////////////
 /* 
- *                         Casa Security Device Arduino Code
- *                                   Developed by:
- *                                  -Britton E Dean
- *                                  -Alexander Mitchell
- *                                  -Odera Unigwe
- *               Prototype for Senior Design Exhibit II at Mercer University.
+ *                      Casa Security Device Prototybe Code with Blynk
+ *          Developed by the CSD Project Team for senior design at Mercer University
+ *                                  
+ *                    ESP32 connects to user's WiFi and listens to its sensors.
+ *                     When the sensors go high the ESP32 will take a picture.
+ *          The picture is uploades to the webserver and is displayed in the Blynk app.
+ * The user will be able to press a button in the Blynk app that will make the device take a picture.
+ *                  
+ *                  *******************IMPORTANT*************************
+ *                                 Tool specifications:
+ *                             Board: "ESP32 Wrover Module"
+ *                             Upload Speed: "115200"
+ *                             Flash Frequency: "40MHz"
+ *                             Partition Scheme: "HUGE APP..."
+ *                             Core Debug Level: "None"
+ *                             
+ *                                  Board Manager: 
+ *                       esp32 version 1.0.4 by Espressif Systems
 */
 ////////////////////////////////////////////////////////////////////////////////////////////
 
