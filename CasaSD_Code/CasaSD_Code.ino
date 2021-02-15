@@ -184,10 +184,10 @@ void loop()                                                // Loop function
 
   // Blynk notification sent to user's phone
   Blynk.notify("Alert: Disturbance Detected.");        
-  /*    
+     
   // Blynk notification sent to user's email
-  Blynk.email(myEmail, "Blynk Alert", "Disturbance detected. Visit http://"+local_IP+"', for image capture"); 
-  */
+  //Blynk.email(myEmail, "CSD Alert", "Disturbance detected. Visit http://"+local_IP+"', for image capture"); 
+  
   Serial.println("Capture Photo");     
   Serial.println("");         
   takePhoto();                                             // Calling takePhoto function
