@@ -5,7 +5,8 @@
  *                                  
  *                    ESP32 connects to user's WiFi and listens to its sensors.
  *                     When the sensors go high the ESP32 will take a picture.
- *            The picture is uploades to the webserver and is displayed in the Blynk app.
+ *            The picture is uploaded to the webserver and is displayed in the Blynk app.
+ *                 The Blynk will send notification to the user's phone and email.
  *  The user will be able to press a button in the Blynk app that will make the device take a picture.
  *                  
  *                    *******************IMPORTANT*************************
@@ -32,10 +33,10 @@
 #include <BlynkSimpleEsp32.h>                            
 
 // Global varables
-const char* ssid = "NETGEAR46";                            // Your Wifi name, ex: NETGEAR57
-const char* password = "rustictomato252";                  // Password to your Wifi, ex: fluffytrumpet252
-char auth[] = "oblf3rY8U2iHdcDW4675h4nWK40ZA10a";          // Authentication code sent by Blynk, check email
-//const char* myEmail = "britton.dean@live.mercer.edu";      // Input your prefered email for Blynk notifications via email
+const char* ssid = "********";                             // Your Wifi name, ex: NETGEAR57
+const char* password = "********";                         // Password to your Wifi, ex: fluffytrumpet252
+char auth[] = "********";                                  // Authentication code sent by Blynk, check email
+//const char* myEmail = "********";                        // Input your prefered email for Blynk notifications via email
 
 // Defining ESP32 model and its pins
 #define CAMERA_MODEL_AI_THINKER                            // Your ESP32-Cam's model of which has PSRAM
