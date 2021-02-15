@@ -173,7 +173,6 @@ void setup()                                               // Setup function
 void loop()                                                // Loop function
 {
   // Main code which runs continuously:
-  //local_IP = WiFi.localIP().toString();
   
   Blynk.run();                                             // Running Blynk software connection
 
