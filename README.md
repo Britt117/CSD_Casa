@@ -10,7 +10,7 @@ Hardware used:
 -15 male to male wires
 
 Note about the sound sensor:
--Turn the potentiometer counter-clockwise untill the led2 on the sound sensor turns off and then turn it clockwise where it led2 comes back on, leaving both led1 and led2 on. This makes the sound sensor at its most sensitve. Furthermore, the analog pin is being used not the digital pin on the sound sensor. 
+-Turn the potentiometer counter-clockwise untill the led2 on the sound sensor turns off and then turn it clockwise where it led2 comes back on, leaving both led1 and led2 on. This sets the sound sensor at its most sensitve. Furthermore, the analog pin is being used not the digital pin on the sound sensor. 
 
 Arduino IDE needed: 
 -https://www.arduino.cc/en/Main.Software
