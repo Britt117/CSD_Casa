@@ -36,9 +36,9 @@
 #include <BlynkSimpleEsp32.h>                            
 
 // Global varables
-const char* ssid = "NETGEAR46";                                                // Your Wifi name, ex: NETGEAR57
-const char* password = "rustictomato252";                                      // Password to your Wifi, ex: fluffytrumpet252
-char auth[] = "oblf3rY8U2iHdcDW4675h4nWK40ZA10a";                              // Authentication code sent by Blynk, check email
+const char* ssid = "********";                                                 // Your Wifi name, ex: NETGEAR57
+const char* password = "********";                                             // Password to your Wifi, ex: fluffytrumpet252
+char auth[] = "********";                                                      // Authentication code sent by Blynk, check email
  
 // Defining ESP32 model and its pins
 #define CAMERA_MODEL_AI_THINKER                                                // Your ESP32-Cam's model of which has PSRAM
@@ -58,7 +58,7 @@ void startCameraServer();                                                      /
 void takePhoto()                                                               // Functionn for taking photo
 {
   digitalWrite(Lamp, HIGH);                
-  delay(200); 
+  delay(700); 
   uint32_t randomNum = random(50000);
   
   // Stating where the image is being captured
@@ -196,17 +196,17 @@ void loop()                                                                     
   {
     Serial.println("Send Notification");     
     Blynk.notify("Alert: Disturbance Detected.");                               // Blynk notification sent to user's phone
-    takePhoto();                                                                // Calling takePhoto function
-    Serial.println("Capture Photo");     
+    Serial.println("Capture Photo"); 
+    takePhoto();                                                                // Calling takePhoto function    
     Serial.println("");
-    delay(5000);                                                                // Delays for 5 seconds
+    delay(10000);                                                               // Delays for 10 seconds
   }
 
   // Function for interacting with the button in Blynk where the user can make the device take a photo manually
   if(digitalRead(PHOTO) == HIGH)                
   {
-    takePhoto();            
     Serial.println("Manual Capture Photo");
+    takePhoto();           
     Serial.println("");                      
   } 
 }                                                                               // End loop function which constantly repeats
